@@ -1,0 +1,11 @@
+/Users/theorangedot/guessing_game_tutorial/target/debug/deps/libcookie-6e821893e6d819df.rmeta: /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/lib.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/builder.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/parse.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/jar.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/delta.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/draft.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/expiration.rs
+
+/Users/theorangedot/guessing_game_tutorial/target/debug/deps/cookie-6e821893e6d819df.d: /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/lib.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/builder.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/parse.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/jar.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/delta.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/draft.rs /Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/expiration.rs
+
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/lib.rs:
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/builder.rs:
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/parse.rs:
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/jar.rs:
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/delta.rs:
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/draft.rs:
+/Users/theorangedot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.16.2/src/expiration.rs:

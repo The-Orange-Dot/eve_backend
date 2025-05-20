@@ -1,0 +1,18 @@
+[package]
+name = "eve_backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "^0.8.5"
+actix-web = "4"
+sqlx = { version = "0.8", features = [ "runtime-tokio-native-tls", "postgres", "macros" ] }
+serde_json = "1.0.140"
+env_logger = "0.11.8"
+dotenv = "0.15.0"
+serde = "1.0.219"
+error = "0.1.9"
+features = "0.10.0"
+futures = "0.3.31"
+validator = { version = "0.16", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }

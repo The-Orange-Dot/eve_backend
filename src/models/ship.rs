@@ -60,7 +60,9 @@ pub struct Fitting {
 #[derive(Deserialize, Serialize)]
 pub struct Attributes {
   pub long_axis: u32,
-  pub class: String
+  pub class: String,
+  pub tech: u8,
+  pub omega: bool
 }
 
 #[derive(Deserialize, Serialize)]

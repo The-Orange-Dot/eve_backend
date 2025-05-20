@@ -25,10 +25,8 @@ pub async fn get_ship(pool: web::Data<sqlx::Pool<sqlx::Postgres>>, path: web::Pa
       .bind(ship_id)
       .fetch_all(pool.get_ref())
       .await
-      .map_err(|err| {
-        eprint!("Error fetching ship variations: {}", err);
-        actix_web::error::ErrorInternalServerError("Error fetching ship variations.")
-      })?;
+      .unwrap_or_default();
+
 
     let res = Ship {
       id: Some(ship.get::<i32, _>("id")),

@@ -35,8 +35,8 @@ pub async fn add_ship(
 
     let _result = sqlx::query(
         r#"
-        INSERT INTO ships (name, info, attributes, fitting, capacitor, targeting, shields, armor, hull, inventory, navigation, variants)
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+        INSERT INTO ships (name, info, attributes, fitting, capacitor, targeting, shields, armor, hull, inventory, navigation)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
         RETURNING id
         "#
     )
@@ -51,7 +51,6 @@ pub async fn add_ship(
     .bind(serde_json::to_value(new_ship.hull).unwrap())
     .bind(serde_json::to_value(new_ship.inventory).unwrap())
     .bind(serde_json::to_value(new_ship.navigation).unwrap())
-    .bind(serde_json::to_value(new_ship.variants).unwrap())
     .execute(pool.get_ref())
     .await
     .map_err(|e| {
